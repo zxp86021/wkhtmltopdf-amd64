@@ -12,25 +12,21 @@ Binaries for __CentOS 7__, also installable with composer, can be found here: [g
 
 _Hint_:
 The version of the binary is equal to the git tag.
-To install the latest version, use '0.12.3'.
+To install the latest version, use '0.12.4'.
 
 ### Packagist
 
 This package can be found on [Packagist](http://packagist.org) and installed with [Composer](https://getcomposer.org/).
 
-Require the package for _i386_ with:
+Require the package with:
 
-    php composer.phar require h4cc/wkhtmltopdf-i386 "0.12.3"
-
-And for _amd64_ with:
-
-    php composer.phar require h4cc/wkhtmltopdf-amd64 "0.12.3"
+    composer require zxp86021/wkhtmltopdf-amd64
 
 The binary will then be located at:
 
-    vendor/h4cc/wkhtmltopdf-i386/bin/wkhtmltopdf-i386
+    vendor/zxp86021/wkhtmltopdf-amd64/bin/wkhtmltopdf-amd64
 
 Also a symlink will be created in your configured bin/ folder, for example:
 
-    vendor/bin/wkhtmltopdf-i386
+    vendor/bin/wkhtmltopdf-amd64
 
