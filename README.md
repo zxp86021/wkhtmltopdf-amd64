@@ -12,7 +12,7 @@ Binaries for __CentOS 7__, also installable with composer, can be found here: [g
 
 _Hint_:
 The version of the binary is equal to the git tag.
-To install the latest version, use '0.12.4'.
+To install the latest version, use '0.12.5'.
 
 ### Packagist
 
